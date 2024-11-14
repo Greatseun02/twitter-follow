@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.custom-name{
+  word-spacing: 2px;
+}
+
+.custom-border{
+  border-radius: 99%;
+  height: fit-content;
+  width: fit-content;
+  border: 3px dotted #FF4C4C ;
+}
+
+.up-down{
+  animation: up-and-down 2s infinite;
+}
+
+@keyframes up-and-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(10px);
+  }
+}
