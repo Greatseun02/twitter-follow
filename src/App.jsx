@@ -1,14 +1,14 @@
 import React from 'react'
 import Container from './components/container'
 import { FaXTwitter } from "react-icons/fa6";
-
+import myImage from './assets/image.jpg';
 
 export default function App() {
   return (
     <div className=' bg-[#121212] min-h-[100vh] w-full text-[#F1F1F1] inter pt-16 pb-16'>
       <Container>
         <div className='p-0 w-fit mx-auto  custom-border rounded-full'>
-          <img className=' rounded-full h-[250px] w-[250px] object-cover mx-auto' src='src/assets/image.jpg'></img>
+          <img className=' rounded-full h-[250px] w-[250px] object-cover mx-auto' src={myImage}></img>
         </div>
         <p className='custom-name text-center text-2xl tracking-tight font-light poppins mt-3 '>Goodnews Adewole</p>
         <p className='poppins text-center font-semibold text-lg mt-3'>Frontend Developer</p>
